@@ -1,0 +1,264 @@
+
+
+/**desktop**/
+@media (min-width: 1024px) {
+    body{
+        background-color: black 
+    }
+    
+    .card {
+        background-color: white;
+        height: 382px;
+        width: 1280px;
+        border-bottom: 8px rgba(153, 153, 153, 1);
+        display: flex;
+        align-items: auto;
+        margin: auto; 
+        position: relative;      
+    }
+    
+    .card-body{
+        width: 180px;
+        padding-left: 264px;
+        font-family: 'lato';
+    }
+    
+    h1{
+        color: black;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38.4px;
+        top: 96px;
+        left: 264px;
+        height: 38px;
+    }
+    
+    p{
+        width: 415px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        top: 182px;
+        left: 264px;
+    }
+    
+    span{
+        color: rgba(0, 153, 102, 1);
+        font-weight: 800;
+    }
+    
+    
+    .card2-title{
+        width: 398px;
+        height: 30px;
+        border: 8px;
+        margin-bottom: 20px;
+        border-bottom: outset rgba(204, 153, 0, 1);
+        background-color: rgba(255, 191, 0, 1);
+        left: 232px;
+        top: 462px;
+        color: black;
+        font-family: 'lato';
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 100%;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        margin-top: 10px; 
+        display: flex;
+        float: left;
+        z-index: 1;
+        
+    }
+    
+    .card2-text{
+        background-color: white;
+        width: 808px;
+        height: 250px;
+        top: 454px;
+        left: 240px;
+        display: flex;
+        border-bottom: 8px rgba(102, 102, 102, 1);
+        border-bottom: outset;
+        margin-bottom: 20px;
+        position: absolute;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-align: left;
+        justify-content: center;
+        font-family: 'lato';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: black;
+        padding-top: 80px;
+        padding-left: 20px;
+        text-wrap: wrap;
+     }
+    
+     main{
+        width: 1280px;
+        height: 450px;
+        top: 382px;
+        margin: auto;
+        background-color: rgba(153, 153, 153, 1);;
+     }
+    
+    
+}
+
+/**tablet**/
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background: rgba(102, 102, 102, 1);
+    }
+
+    .card{
+        width: 768px;
+        height: 382px;
+        left: 0%;
+        top: 0%;
+        background-color: rgba(255, 255, 255, 1);
+        border-bottom: 8px solid rgba(153, 153, 153, 1);
+        position: absolute;
+    }
+
+    h1{
+        width: 180px;
+        height: 38px;
+        padding-top: 68px;
+        padding-left: 24px;
+        font: lato;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: 0%;
+        padding-bottom: 20px;
+    }
+
+    p{
+        padding-left: 24px;
+        width: 380px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.5%;
+    }
+
+    span{
+        font-weight: 800;
+        color: rgba(0, 153, 102, 1);
+    }
+
+    .card2{
+        background-color: white;
+        width: 768px;
+        height: 312px;
+        top: 454px;
+        left: 0%;
+        position: absolute;
+    }
+
+    .card2-title{
+        width: 398px;
+        height: 40px;
+        left: 0%;
+        border-bottom: 8px solid rgba(204, 153, 0, 1);
+        background-color: rgba(255, 191, 0, 1);
+        
+    }
+
+    h2{
+        width: 334px;
+        padding-left: 24px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0%;
+        text-wrap: wrap;
+        padding-top: 10px;
+    }
+
+    .card2 p{
+        width: 720px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0%;
+    }
+
+} 
+
+/**mobile**/
+@media (max-width:600px) {
+    body{
+        background-color: rgba(102, 102, 102, 1);
+        width: 390px;
+    }
+
+    .card{
+        background-color: white;
+        height: 382px;
+        width: 390px;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        border-bottom: 8px solid rgba(153, 153, 153, 1);
+    }
+
+    .card-body h1{
+        padding-top: 98px;
+        padding-left: 24px;
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: 0%;
+        line-height: 38.4px;
+    }
+
+    p{
+        padding-left: 24px;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: -0.5%;
+    }
+
+    span{
+        color: rgba(0, 153, 102, 1);
+        font-weight: 800;
+    }
+
+    .card2{
+        top: 454px;
+        left: 0%;
+        width: 390px;
+        background-color: white;
+        position: absolute;
+        border-bottom: 8px solid rgba(153, 153, 153, 1);
+    }
+
+    .card2-title{
+        width: 340px;
+        height: 60px;
+        background: rgba(255, 191, 0, 1);
+        border-bottom: 8px solid rgba(204, 153, 0, 1);
+    }
+
+    h2{
+        font: lato;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28.8px;
+        padding: 15px;
+        padding-left: 24px;
+        letter-spacing: 0%;
+        width: 200px;
+    }
+
+    .card2 p{
+        width: 342px;
+    }
+}

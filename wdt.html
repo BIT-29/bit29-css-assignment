@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wdt site</title>
+    <link rel="stylesheet" href="wdt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <main>
+    <section class="first">
+        <div class="logo">
+            <img src="asssets/Images/Logo.jpeg" alt="logo">
+        </div>
+
+        <div class="body">
+            <h1>For Individuals</h1>
+            <p>
+                Start benefiting from the wellness experience. 
+                For companies looking on increasing productivity,
+                and improving organization wellness.
+            </p>
+        </div>
+    </section>
+
+    <section class="form-control">
+        <div class="form-container">
+            
+        <form>
+            <div class="first-name">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" value="">
+            
+            </div>
+            
+           <div class="lastname">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name">
+           </div>
+            
+            <div class="gender">
+                <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="">Select here</option>
+            </select>
+            </div>
+            
+            <div class="dob">
+                <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            </div>
+            
+            <div class="weight">
+                <label for="weight">Weight (KG)</label>
+                <input type="number" id="weight" name="weight">
+            </div>
+            
+            <div class="height">
+                <label for="height">Height (CM)</label>
+                <input type="number" id="height" name="height">
+            </div>
+            
+            <div class="activity-level">
+                <label for="activity-level">Activity Level</label>
+                <select id="activity-level" name="activity-level">
+                    <option value="">Select here</option>
+                </select>
+            </div>
+            
+            <div class="password">
+                <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <i class="fas fa-eye toggle-password"></i>
+            </div>
+            
+            <button type="submit">Register</button>
+            
+            <div class="terms">
+                By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.
+            </div>
+        </form>
+        </div>
+    </section>
+   </main> 
+   <script>
+    const togglePassword = document.querySelector('.toggle-password');
+    const passwordInput = document.querySelector('#password');
+
+    togglePassword.addEventListener('click', function (e) {
+        // Toggle the type attribute
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInput.setAttribute('type', type);
+        // Toggle the eye icon
+        this.classList.toggle('fa-eye');
+        this.classList.toggle('fa-eye-slash');
+    });
+</script>
+</body>
+</html>
